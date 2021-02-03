@@ -1,5 +1,6 @@
 package com.transmuda.pages;
 
+import com.transmuda.TestBase;
 import com.transmuda.utilities.ConfigurationReader;
 import com.transmuda.utilities.Driver;
 import org.openqa.selenium.WebElement;
