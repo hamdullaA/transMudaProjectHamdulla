@@ -20,7 +20,7 @@ public class Driver {
 
     public static WebDriver get() {
         if (driver == null) {
-            String browser = com.transmuda.utilities.ConfigurationReader.get("browser");
+            String browser = ConfigurationReader.get("browser");
             switch (browser) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
